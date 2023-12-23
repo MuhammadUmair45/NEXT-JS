@@ -1,3 +1,4 @@
+import ContactForm from "../Components/Navbar/DeleteButton/contactForm/contactForm"
 function Contact() {
     return (
         <div>
@@ -40,6 +41,8 @@ function Contact() {
                             <textarea placeholder="Message" required></textarea>
                             <button type="submit" className="hero_btn btn">Send Message</button>
                         </form>
+			
+			<ContactForm />
                     </div>
                 </div>
             </section>
